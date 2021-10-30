@@ -1,0 +1,620 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli",
+        "workspaceDir": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli",
+        "sources": [
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\src\\main\\scala",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\src\\main\\scala-2.13",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\src\\main\\scala-2",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\src\\main\\java",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.0\\scala-library-2.13.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\danielasfregola\\twitter4s_2.13\\7.0\\twitter4s_2.13-7.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.2.3\\logback-classic-1.2.3.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.0\\config-1.4.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-actor_2.13\\2.6.8\\akka-actor_2.13-2.6.8.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-stream_2.13\\2.6.8\\akka-stream_2.13-2.6.8.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-http_2.13\\10.2.0\\akka-http_2.13-10.2.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\de\\heikoseeberger\\akka-http-json4s_2.13\\1.34.0\\akka-http-json4s_2.13-1.34.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native_2.13\\3.6.9\\json4s-native_2.13-3.6.9.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ext_2.13\\3.6.9\\json4s-ext_2.13-3.6.9.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\scala-logging\\scala-logging_2.13\\3.9.2\\scala-logging_2.13-3.9.2.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.3\\logback-core-1.2.3.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.26\\slf4j-api-1.7.26.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-java8-compat_2.13\\0.9.0\\scala-java8-compat_2.13-0.9.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-protobuf-v3_2.13\\2.6.8\\akka-protobuf-v3_2.13-2.6.8.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\ssl-config-core_2.13\\0.4.1\\ssl-config-core_2.13-0.4.1.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-http-core_2.13\\10.2.0\\akka-http-core_2.13-10.2.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\3.6.9\\json4s-core_2.13-3.6.9.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.6\\joda-time-2.10.6.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\joda\\joda-convert\\2.2.1\\joda-convert-2.2.1.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.0\\scala-reflect-2.13.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-parsing_2.13\\10.2.0\\akka-parsing_2.13-10.2.0.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\3.6.9\\json4s-ast_2.13-3.6.9.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\3.6.9\\json4s-scalap_2.13-3.6.9.jar",
+            "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar"
+        ],
+        "out": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\.bloop\\root",
+        "classesDir": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\.bloop\\root\\scala-2.13\\classes",
+        "resources": [
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\src\\main\\resources",
+            "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.0",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.0\\scala-library-2.13.0.jar",
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.0\\scala-compiler-2.13.0.jar",
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.0\\scala-reflect-2.13.0.jar",
+                "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.6\\jline-2.14.6.jar"
+            ],
+            "analysis": "C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Eclipse Foundation\\jdk-11.0.12.7-hotspot",
+                "options": [
+                    "-Duser.dir=C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.0\\scala-library-2.13.0.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.0\\scala-library-2.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.danielasfregola",
+                    "name": "twitter4s_2.13",
+                    "version": "7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "twitter4s_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\danielasfregola\\twitter4s_2.13\\7.0\\twitter4s_2.13-7.0.jar"
+                        },
+                        {
+                            "name": "twitter4s_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\danielasfregola\\twitter4s_2.13\\7.0\\twitter4s_2.13-7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.2.3\\logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.2.3\\logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.0\\config-1.4.0.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.0\\config-1.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.6.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-actor_2.13\\2.6.8\\akka-actor_2.13-2.6.8.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-actor_2.13\\2.6.8\\akka-actor_2.13-2.6.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream_2.13",
+                    "version": "2.6.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-stream_2.13\\2.6.8\\akka-stream_2.13-2.6.8.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-stream_2.13\\2.6.8\\akka-stream_2.13-2.6.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http_2.13",
+                    "version": "10.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-http_2.13\\10.2.0\\akka-http_2.13-10.2.0.jar"
+                        },
+                        {
+                            "name": "akka-http_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-http_2.13\\10.2.0\\akka-http_2.13-10.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "de.heikoseeberger",
+                    "name": "akka-http-json4s_2.13",
+                    "version": "1.34.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-json4s_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\de\\heikoseeberger\\akka-http-json4s_2.13\\1.34.0\\akka-http-json4s_2.13-1.34.0.jar"
+                        },
+                        {
+                            "name": "akka-http-json4s_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\de\\heikoseeberger\\akka-http-json4s_2.13\\1.34.0\\akka-http-json4s_2.13-1.34.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-native_2.13",
+                    "version": "3.6.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-native_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native_2.13\\3.6.9\\json4s-native_2.13-3.6.9.jar"
+                        },
+                        {
+                            "name": "json4s-native_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native_2.13\\3.6.9\\json4s-native_2.13-3.6.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-ext_2.13",
+                    "version": "3.6.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-ext_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ext_2.13\\3.6.9\\json4s-ext_2.13-3.6.9.jar"
+                        },
+                        {
+                            "name": "json4s-ext_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ext_2.13\\3.6.9\\json4s-ext_2.13-3.6.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_2.13",
+                    "version": "3.9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\scala-logging\\scala-logging_2.13\\3.9.2\\scala-logging_2.13-3.9.2.jar"
+                        },
+                        {
+                            "name": "scala-logging_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\scala-logging\\scala-logging_2.13\\3.9.2\\scala-logging_2.13-3.9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.3\\logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.3\\logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.26",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.26\\slf4j-api-1.7.26.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.26\\slf4j-api-1.7.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.13",
+                    "version": "0.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-java8-compat_2.13\\0.9.0\\scala-java8-compat_2.13-0.9.0.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-java8-compat_2.13\\0.9.0\\scala-java8-compat_2.13-0.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_2.13",
+                    "version": "2.6.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-protobuf-v3_2.13\\2.6.8\\akka-protobuf-v3_2.13-2.6.8.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-protobuf-v3_2.13\\2.6.8\\akka-protobuf-v3_2.13-2.6.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.13",
+                    "version": "0.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\ssl-config-core_2.13\\0.4.1\\ssl-config-core_2.13-0.4.1.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\ssl-config-core_2.13\\0.4.1\\ssl-config-core_2.13-0.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-core_2.13",
+                    "version": "10.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-core_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-http-core_2.13\\10.2.0\\akka-http-core_2.13-10.2.0.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-http-core_2.13\\10.2.0\\akka-http-core_2.13-10.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-core_2.13",
+                    "version": "3.6.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-core_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\3.6.9\\json4s-core_2.13-3.6.9.jar"
+                        },
+                        {
+                            "name": "json4s-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\3.6.9\\json4s-core_2.13-3.6.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "joda-time",
+                    "name": "joda-time",
+                    "version": "2.10.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-time",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.6\\joda-time-2.10.6.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\joda-time\\joda-time\\2.10.6\\joda-time-2.10.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.joda",
+                    "name": "joda-convert",
+                    "version": "2.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "joda-convert",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\joda\\joda-convert\\2.2.1\\joda-convert-2.2.1.jar"
+                        },
+                        {
+                            "name": "joda-convert",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\joda\\joda-convert\\2.2.1\\joda-convert-2.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.0\\scala-reflect-2.13.0.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.0\\scala-reflect-2.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-parsing_2.13",
+                    "version": "10.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-parsing_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-parsing_2.13\\10.2.0\\akka-parsing_2.13-10.2.0.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-parsing_2.13\\10.2.0\\akka-parsing_2.13-10.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-ast_2.13",
+                    "version": "3.6.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-ast_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\3.6.9\\json4s-ast_2.13-3.6.9.jar"
+                        },
+                        {
+                            "name": "json4s-ast_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\3.6.9\\json4s-ast_2.13-3.6.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-scalap_2.13",
+                    "version": "3.6.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json4s-scalap_2.13",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\3.6.9\\json4s-scalap_2.13-3.6.9.jar"
+                        },
+                        {
+                            "name": "json4s-scalap_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\3.6.9\\json4s-scalap_2.13-3.6.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.0",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.0\\scala-library-2.13.0.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Charles Dang\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.0\\scala-library-2.13.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
