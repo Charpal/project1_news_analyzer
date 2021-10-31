@@ -11,7 +11,8 @@ resolvers += Resolver.sonatypeRepo("releases")
 
 libraryDependencies ++= Seq(
   "com.danielasfregola" %% "twitter4s"      % "7.0",
-  "ch.qos.logback"      % "logback-classic" % "1.2.3"
+  "ch.qos.logback"      % "logback-classic" % "1.2.3",
+  "org.apache.hadoop" % "hadoop-client" % "2.7.0",
 )
 
 

@@ -3488,3 +3488,1271 @@ java.lang.NullPointerException
 [0m2021.10.29 19:41:02 INFO  time: compiled root in 1.09s[0m
 Oct 29, 2021 7:41:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Oct 29, 2021 7:47:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 7:48:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 7:48:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 7:48:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:48:16 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:48:17 INFO  time: compiled root in 1.22s[0m
+Oct 29, 2021 7:49:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 7:49:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 7:49:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 7:49:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 19:49:12 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 19:49:14 INFO  time: compiled root in 1.31s[0m
+Oct 29, 2021 8:57:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 9:23:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 10:25:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 10:27:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 22:35:25 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 22:35:27 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 22:35:27 INFO  time: compiled root in 2.49s[0m
+[0m2021.10.29 22:35:51 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 22:35:53 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 22:35:53 INFO  time: compiled root in 1.97s[0m
+Oct 29, 2021 10:36:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 10:36:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 10:36:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1397
+Oct 29, 2021 10:36:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 22:36:57 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 22:36:58 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 22:36:58 INFO  time: compiled root in 1.59s[0m
+Oct 29, 2021 10:37:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 10:37:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 22:37:42 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 22:37:43 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 22:37:43 INFO  time: compiled root in 1.3s[0m
+Oct 29, 2021 10:38:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 10:38:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 22:38:29 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 22:38:29 INFO  time: compiled root in 0.19s[0m
+[0m2021.10.29 22:38:44 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 22:38:45 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 22:38:45 INFO  time: compiled root in 1.25s[0m
+Oct 29, 2021 11:05:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:05:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:06:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:06:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 23:08:52 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:08:53 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:08:53 INFO  time: compiled root in 1.25s[0m
+[0m2021.10.29 23:10:11 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:10:12 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:10:12 INFO  time: compiled root in 1.35s[0m
+Oct 29, 2021 11:12:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:12:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:12:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 23:12:26 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:12:27 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:12:27 INFO  time: compiled root in 1.27s[0m
+[0m2021.10.29 23:15:11 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:15:12 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:15:12 INFO  time: compiled root in 1.24s[0m
+Oct 29, 2021 11:15:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 23:15:37 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:15:38 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:15:38 INFO  time: compiled root in 1.09s[0m
+Oct 29, 2021 11:15:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:16:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 23:16:12 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:16:13 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:16:13 INFO  time: compiled root in 1.25s[0m
+Oct 29, 2021 11:16:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:16:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.29 23:18:28 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:18:29 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:18:29 INFO  time: compiled root in 1.15s[0m
+[0m2021.10.29 23:19:19 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:19:21 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:19:21 INFO  time: compiled root in 1.97s[0m
+[0m2021.10.29 23:19:41 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:19:43 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:19:43 INFO  time: compiled root in 1.23s[0m
+Oct 29, 2021 11:20:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 29, 2021 11:21:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2745
+Oct 29, 2021 11:22:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2797
+[0m2021.10.29 23:22:44 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:22:46 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:22:46 INFO  time: compiled root in 1.14s[0m
+[0m2021.10.29 23:23:16 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:23:17 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:23:17 INFO  time: compiled root in 1.29s[0m
+[0m2021.10.29 23:23:46 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:23:46 INFO  time: compiled root in 0.17s[0m
+[0m2021.10.29 23:23:57 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:23:57 INFO  time: compiled root in 0.18s[0m
+[0m2021.10.29 23:24:05 INFO  compiling root (1 scala source)[0m
+[0m2021.10.29 23:24:06 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.29 23:24:06 INFO  time: compiled root in 1.26s[0m
+[0m2021.10.30 00:12:40 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 00:12:41 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 00:12:41 INFO  time: compiled root in 1.2s[0m
+[0m2021.10.30 00:13:45 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 00:13:47 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 00:13:47 INFO  time: compiled root in 1.43s[0m
+Oct 30, 2021 12:16:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 12:16:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 12:16:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 12:16:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 00:16:43 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 00:16:43 INFO  time: compiled root in 0.19s[0m
+[0m2021.10.30 00:16:51 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 00:16:53 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 00:16:53 INFO  time: compiled root in 1.17s[0m
+[0m2021.10.30 00:17:13 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 00:17:14 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 00:17:14 INFO  time: compiled root in 1.13s[0m
+Oct 30, 2021 12:20:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 00:20:28 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 00:20:29 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 00:20:29 INFO  time: compiled root in 1.23s[0m
+Oct 30, 2021 12:20:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 12:20:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 12:20:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 12:20:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 12:20:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 00:21:02 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 00:21:03 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 00:21:03 INFO  time: compiled root in 1.42s[0m
+[0m2021.10.30 16:36:53 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 16:36:55 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 16:36:55 INFO  time: compiled root in 1.83s[0m
+Oct 30, 2021 4:43:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3658
+Oct 30, 2021 4:43:46 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.10.30 16:44:26 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 16:44:27 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 16:44:27 INFO  time: compiled root in 1.28s[0m
+Oct 30, 2021 4:44:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:44:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 16:45:53 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 16:45:54 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 16:45:54 INFO  time: compiled root in 1.23s[0m
+[0m2021.10.30 16:47:05 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 16:47:05 INFO  time: compiled root in 0.18s[0m
+Oct 30, 2021 4:47:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 16:47:15 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 16:47:16 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 16:47:16 INFO  time: compiled root in 1.26s[0m
+Oct 30, 2021 4:49:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:50:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4222
+Oct 30, 2021 4:51:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:52:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:53:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:53:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:53:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:54:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:55:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:59:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 4:59:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:12:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5265
+Oct 30, 2021 5:12:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:12:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:12:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:14:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:14:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:14:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:16:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 17:16:59 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 17:16:59 INFO  time: compiled root in 0.2s[0m
+[0m2021.10.30 17:17:16 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 17:17:17 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 17:17:17 INFO  time: compiled root in 1.4s[0m
+Oct 30, 2021 5:20:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:20:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:20:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:20:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:21:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 17:21:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 17:21:18 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 17:21:18 INFO  time: compiled root in 1.35s[0m
+[0m2021.10.30 17:22:19 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 17:22:19 INFO  time: compiled root in 0.18s[0m
+Oct 30, 2021 5:22:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 17:22:31 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 17:22:32 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 17:22:32 INFO  time: compiled root in 1.17s[0m
+Oct 30, 2021 5:24:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:25:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 17:25:12 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 17:25:14 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 17:25:14 INFO  time: compiled root in 1.74s[0m
+Oct 30, 2021 5:26:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6284
+[0m2021.10.30 17:37:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 17:37:19 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 17:37:19 INFO  time: compiled root in 1.83s[0m
+[0m2021.10.30 17:38:22 INFO  time: code lens generation in 3.74s[0m
+[0m2021.10.30 17:38:22 INFO  time: code lens generation in 2.66s[0m
+[0m2021.10.30 17:38:22 INFO  time: code lens generation in 4.69s[0m
+[0m2021.10.30 17:38:22 INFO  time: code lens generation in 6.97s[0m
+Oct 30, 2021 5:38:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 5:38:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 17:41:01 INFO  running 'C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CHARLE~1\AppData\Local\Temp\metals15343649856669171391\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.30 17:41:04 INFO  [info] welcome to sbt 1.5.5 (Eclipse Foundation Java 11.0.12)[0m
+[0m2021.10.30 17:41:05 INFO  [info] loading settings for project newsanalyzercli-build-build from metals.sbt ...[0m
+[0m2021.10.30 17:41:05 INFO  [info] loading project definition from C:\Users\Charles Dang\Documents\Revature\Projects\project1_news_analyzer\newsanalyzercli\project\project[0m
+[0m2021.10.30 17:41:07 INFO  [info] loading settings for project newsanalyzercli-build from metals.sbt ...[0m
+[0m2021.10.30 17:41:07 INFO  [info] loading project definition from C:\Users\Charles Dang\Documents\Revature\Projects\project1_news_analyzer\newsanalyzercli\project[0m
+[0m2021.10.30 17:41:12 INFO  [success] Generated .bloop\newsanalyzercli-build.json[0m
+[0m2021.10.30 17:41:12 INFO  [success] Total time: 5 s, completed Oct 30, 2021, 5:41:13 PM[0m
+[0m2021.10.30 17:41:15 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.10.30 17:41:15 INFO  [info] set current project to newsanalyzercli (in build file:/C:/Users/Charles%20Dang/Documents/Revature/Projects/project1_news_analyzer/newsanalyzercli/)[0m
+[0m2021.10.30 17:41:21 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.10.30 17:41:21 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.10.30 17:41:21 INFO  [success] Total time: 5 s, completed Oct 30, 2021, 5:41:21 PM[0m
+[0m2021.10.30 17:41:21 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+[0m2021.10.30 17:41:21 INFO  Disconnecting from Bloop session...[0m
+[0m2021.10.30 17:41:21 INFO  Shut down connection with build server.[0m
+[0m2021.10.30 17:41:21 INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+[0m2021.10.30 17:41:21 INFO  Attempting to connect to the build server...[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:156)
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:183)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:156)
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20417'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Charles Dang\Documents\Revature\Projects\project1_news_analyzer\newsanalyzercli\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Charles Dang\Documents\Revature\Projects\project1_news_analyzer\newsanalyzercli\.bloop\root-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Charles Dang\Documents\Revature\Projects\project1_news_analyzer\newsanalyzercli\.bloop\root.json'
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20417...
+The server is listening for incoming connections at tcp://127.0.0.1:20417...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.30 17:41:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.30 17:41:22 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24180'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24180...
+The server is listening for incoming connections at tcp://127.0.0.1:24180...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.30 17:41:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.30 17:41:22 INFO  time: Connected to build server in 1.33s[0m
+[0m2021.10.30 17:41:22 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.10.30 17:41:26 INFO  time: indexed workspace in 3.68s[0m
+[0m2021.10.30 17:41:28 INFO  no build target: using presentation compiler with only scala-library: 2.13.0[0m
+Oct 30, 2021 5:41:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6448
+[0m2021.10.30 17:41:47 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 17:41:49 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 17:41:49 INFO  time: compiled root in 1.6s[0m
+Oct 30, 2021 6:10:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 6:11:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 6:11:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 6:11:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 18:11:56 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 18:11:57 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 18:11:57 INFO  time: compiled root in 1.2s[0m
+[0m2021.10.30 18:13:20 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 18:13:20 INFO  time: compiled root in 0.15s[0m
+Oct 30, 2021 6:13:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 6:13:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 18:13:28 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 18:13:29 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 18:13:29 INFO  time: compiled root in 1.28s[0m
+Oct 30, 2021 6:14:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 6:21:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 18:21:45 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 18:21:46 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 18:21:46 INFO  time: compiled root in 1.5s[0m
+[0m2021.10.30 21:40:37 INFO  Started: Metals version 0.10.8 in workspace 'C:\Users\Charles Dang\Documents\Revature\Projects\project1_news_analyzer\newsanalyzercli' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.30 21:40:39 INFO  time: initialize in 1.89s[0m
+[0m2021.10.30 21:40:46 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.30 21:40:46 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14691'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:14691...
+The server is listening for incoming connections at tcp://127.0.0.1:14691...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.30 21:41:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.30 21:41:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28184'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28184...
+The server is listening for incoming connections at tcp://127.0.0.1:28184...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.30 21:41:32 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.10.30 21:41:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Charles Dang\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.30 21:41:34 INFO  time: Connected to build server in 48s[0m
+[0m2021.10.30 21:41:34 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.10.30 21:41:36 INFO  time: code lens generation in 49s[0m
+[0m2021.10.30 21:41:40 INFO  time: Imported build in 3.77s[0m
+[0m2021.10.30 21:41:55 INFO  time: indexed workspace in 15s[0m
+[0m2021.10.30 21:41:59 INFO  no build target: using presentation compiler with only scala-library: 2.13.0[0m
+Oct 30, 2021 9:47:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:47:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:50:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:50:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:51:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:52:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:54:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:55:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:57:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:57:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:57:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:57:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:57:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:58:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 21:58:32 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 21:58:45 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 21:58:45 INFO  time: compiled root in 13s[0m
+Oct 30, 2021 9:58:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:59:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:59:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:59:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 9:59:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 22:00:47 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 22:00:51 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 22:00:51 INFO  time: compiled root in 3.36s[0m
+Oct 30, 2021 10:01:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 22:02:06 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 22:02:09 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 22:02:09 INFO  time: compiled root in 2.83s[0m
+[0m2021.10.30 22:02:25 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 22:02:25 INFO  time: compiled root in 0.6s[0m
+Oct 30, 2021 10:03:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 10:04:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 22:05:04 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 22:05:06 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 22:05:06 INFO  time: compiled root in 2.26s[0m
+Oct 30, 2021 10:07:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 10:07:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 22:07:34 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 22:07:36 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 22:07:36 INFO  time: compiled root in 2.35s[0m
+Oct 30, 2021 10:07:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 10:17:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 10:17:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Oct 30, 2021 10:17:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 22:18:02 INFO  compiling root (1 scala source)[0m
+[0m2021.10.30 22:18:32 WARN  there was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.30 22:18:32 INFO  time: compiled root in 30s[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Oct 30, 2021 10:25:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:284)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.30 22:26:09 INFO  time: code lens generation in 2s[0m
