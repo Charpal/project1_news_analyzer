@@ -200,7 +200,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Eclipse Foundation\\jdk-11.0.12.7-hotspot",
+                "home": "C:\\Program Files\\Eclipse Adoptium\\jdk-8.0.312.7-hotspot\\jre",
                 "options": [
                     "-Duser.dir=C:\\Users\\Charles Dang\\Documents\\Revature\\Projects\\project1_news_analyzer\\newsanalyzercli\\project"
                 ]

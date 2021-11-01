@@ -1,30 +1,23 @@
 import Dependencies._
 
-ThisBuild / scalaVersion     := "2.13.0"
+ThisBuild / scalaVersion     := "2.11.8"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.example"
 ThisBuild / organizationName := "example"
-
-resolvers += Resolver.sonatypeRepo("releases")
-
-
-
-libraryDependencies ++= Seq(
-  "com.danielasfregola" %% "twitter4s"      % "7.0",
-  "ch.qos.logback"      % "logback-classic" % "1.2.3",
-  "org.apache.hadoop" % "hadoop-client" % "2.7.0",
-)
-
 
 
 lazy val root = (project in file("."))
   .settings(
     name := "newsanalyzercli",
+    resolvers += Resolver.sonatypeRepo("releases"),
     libraryDependencies += scalaTest % Test,
+    libraryDependencies += "com.danielasfregola" %% "twitter4s" % "5.1",
+    libraryDependencies += "ch.qos.logback"      % "logback-classic" % "1.2.3",
+    libraryDependencies += "org.apache.hadoop" % "hadoop-client" % "2.7.0",
+    //libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.2.0",
     // resolvers += Resolver.sonatypeRepo("releases"),
     // libraryDependencies += "com.danielasfregola" %% "twitter4s" % "7.0",
 )
-
 
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
 

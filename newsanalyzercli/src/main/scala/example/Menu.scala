@@ -2,6 +2,7 @@ package example
 
 import scala.io.StdIn.readLine
 import scala.collection.mutable.ListBuffer
+//scp -P 2222 "C:\Users\Charles Dang\Documents\Revature\Projects\project1_news_analyzer\newsanalyzercli\target\scala-2.13\newsanalyzercli_2.13-0.1.0-SNAPSHOT.jar" maria_dev@sandbox-hdp.hortonworks.com:/home/maria_dev
 import com.danielasfregola.twitter4s.TwitterRestClient
 import com.danielasfregola.twitter4s.entities.{AccessToken, ConsumerToken}
 import com.danielasfregola.twitter4s.entities.{HashTag, Tweet}
@@ -10,14 +11,14 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import java.io.PrintWriter;
+import java.io._;
 
 object Menu {
 
     var activeAccount = new User("N/A", "N/A", "N/A", "N/A", "N/A", "N/A")
-    var userDataBase = new ListBuffer[User]()
     val testBaseUser = new User("John", "Smith", "johnsmith@gmail.com", "jsmith21", "Ahhh2469@", "Base")
     val testAdminUser = new User("James", "Ronn", "jamesronnh@gmail.com", "jronn23", "CXJ295!", "Admin")      
+    var userDataBase =  ListBuffer[User]()
     userDataBase += testBaseUser
     userDataBase += testAdminUser
     
@@ -52,8 +53,8 @@ object Menu {
   }    
 
 def getGlobalTrendingTopics(restClient: TwitterRestClient): Unit = {
-    //val filename = testPath + "globalTrends.txt"
-    val filename = path + "globalTrends.txt"
+    val filename = testPath + "globalTrends.txt"
+    //val filename = path + "globalTrends.txt"
     println(s"Creating file $filename ...")
     
     val conf = new Configuration()
@@ -68,16 +69,74 @@ def getGlobalTrendingTopics(restClient: TwitterRestClient): Unit = {
       fs.delete(filepath, false)
     }
 
-    val output = fs.create(new Path(filename))
+    //val output = fs.create(new Path(filename))
     
-    val writer = new PrintWriter(output)
+    //val writer = new PrintWriter(output)
+    val writer = new PrintWriter(new File(filename))
     
    
-    val globalTrends = for {
+    //val globalTrends = 
+    for {
     globalTrendsResult <- restClient.globalTrends().map(_.data)
   } yield {
-    writeTrendingTopics(globalTrendsResult, writer)
+    printTrendingTopics(globalTrendsResult)
+    // println("Hi")
+    // var rank = 1
+    // globalTrendsResult.foreach { locationTrend =>
+    //   locationTrend.trends.take(100).foreach(t => writer.write(s"$rank, $t.name\n"))
+    // }
   }
+
+    
+    //writer.write("Hello World")
+    writer.close()
+     println(s"Done creating file $filename ...")
+}
+
+def testGetGlobalTrends(restClient: TwitterRestClient): Unit = {
+    val filename = testPath + "globalTrends.txt"
+    println(s"Creating file $filename ...")
+    
+    val conf = new Configuration()
+    val fs = FileSystem.get(conf)
+    
+    // Check if file exists. If yes, delete it.
+    println("Checking if it already exists...")
+    val filepath = new Path( filename)
+    val isExisting = fs.exists(filepath)
+    if(isExisting) {
+      println("Yes it does exist. Deleting it...")
+      fs.delete(filepath, false)
+    }
+
+    val writer = new PrintWriter(new BufferedWriter(
+    new OutputStreamWriter(new FileOutputStream(filename))))
+    
+   
+    var data = List("Everything", "is", "here", "HERE")
+    var rank = 1
+    // val globalTrends = for {
+    //     globalTrendsResult <- restClient.globalTrends().map(_.data)
+    // }
+    // globalTrends.foreach{ globalTrend =>
+    //     globalTrend.trends.take(100).foreach(t => writer.write(s"$rank, $t.name\n"))
+    //     rank += 1
+    // }
+
+    val globalTrends = 
+    for {
+    globalTrendsResult <- restClient.globalTrends().map(_.data)
+  } yield {
+    //printTrendingTopics(globalTrendsResult)
+    println("Hi")
+    var rank = 1
+    globalTrendsResult.foreach { locationTrend =>
+      locationTrend.trends.take(100).foreach(t => writer.write(s"$rank, $t.name\n"))
+    }
+  }
+
+    
+    //writer.write("Hello World")
     writer.close()
      println(s"Done creating file $filename ...")
 }
@@ -96,7 +155,7 @@ def printTrendingTopics(locationTrends: Seq[LocationTrends]): Unit =
       locationTrend.trends.take(1000).foreach(t => println(t.name))
     }
 
-    def main(args: Array[String]): Unit = {
+    def main(args: Array[String]){
         
         
         // val user = "CriticalRole"
@@ -201,7 +260,7 @@ def printTrendingTopics(locationTrends: Seq[LocationTrends]): Unit =
         val userPass = readLine("Please create your password: ")
 
         val userAccount = new User(userFName, userLName, userEmail, userName, userPass, "Base")
-        userDataBase.addOne(userAccount)
+        userDataBase += userAccount
         activeAccount = userAccount
     }
 
@@ -269,7 +328,7 @@ def printTrendingTopics(locationTrends: Seq[LocationTrends]): Unit =
         userAction match{
             case "1" => {
                 println("Loading data ...")
-                getGlobalTrendingTopics(restClient)
+                testGetGlobalTrends(restClient)
             }
             case "2" => println("Logging out user.")
             case _ => println("Invalid option. Please try again.")
