@@ -9,11 +9,9 @@ ThisBuild / organizationName := "example"
 lazy val root = (project in file("."))
   .settings(
     name := "newsanalyzercli",
-    resolvers += Resolver.sonatypeRepo("releases"),
     libraryDependencies += scalaTest % Test,
-    libraryDependencies += "com.danielasfregola" %% "twitter4s" % "5.1",
-    libraryDependencies += "ch.qos.logback"      % "logback-classic" % "1.2.3",
     libraryDependencies += "org.apache.hadoop" % "hadoop-client" % "2.7.0",
+    libraryDependencies += "net.liftweb" %% "lift-json" % "2.6",
     //libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.2.0",
     // resolvers += Resolver.sonatypeRepo("releases"),
     // libraryDependencies += "com.danielasfregola" %% "twitter4s" % "7.0",
