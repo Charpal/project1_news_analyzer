@@ -179,9 +179,23 @@ object Menu {
             case "1" => {
                 println("Loading data ...")
                 for (articleNum <- 1 to 5){ 
-                var data = getRestContent(s"https://newsapi.org/v2/everything?q=%22wheel%20of%20time%22&page=${articleNum}&sortBy=popularity&apiKey=bad3a3f348d64271b5a6734abf9cc729")
+                //Import Wheel of Time articles from NewsAPI
+                val url = s"https://newsapi.org/v2/everything?q=%22wheel%20of%20time%22&page=${articleNum}&sortBy=popularity&apiKey=bad3a3f348d64271b5a6734abf9cc729"
+                var data = getRestContent(url)
+                //Store it on the local machine
                 createFile(s"TWoT${articleNum}.json", data)
+                //Load it into a table
                 loadDataIntoTable(s"TWoT${articleNum}.json", "wottb")
+                }
+                
+                for (articleNum <- 1 to 5){ 
+                //Import Game of Thrones articles from NewsAPI
+                var url = s"https://newsapi.org/v2/everything?q=%22game%20of%20thrones%22&page=${articleNum}&sortBy=popularity&apiKey=bad3a3f348d64271b5a6734abf9cc729"
+                var data = getRestContent(url)
+                //Store it on the local machine
+                createFile(s"GoT${articleNum}.json", data)
+                //Load it into a table
+                loadDataIntoTable(s"GoT${articleNum}.json", "gottb")
                 }
                 println("Finished loading data.")
             }
@@ -255,7 +269,7 @@ object Menu {
             stmt.execute("LOAD DATA LOCAL INPATH '" + fullFileName +"' INTO TABLE " + tableName);
         } catch {
             case ex => {
-            println("HERE!")
+            //println("HERE!")
             ex.printStackTrace();
             throw new Exception (s"${ex.getMessage}")
             }
@@ -303,8 +317,10 @@ object Menu {
         var userAction = getUserAction()
         userAction match {
             case "1" => {
-                println("What would you like to analyze?")
-                userAction = presentAnalysisOptions()
+                while (userAction != "10"){
+                    println("What would you like to analyze?")
+                    userAction = presentAnalysisOptions()
+                }
             }
             case "2" => setNewUserName()
             case "3" => setNewPassWord()
@@ -317,10 +333,14 @@ object Menu {
     def presentAnalysisOptions(): String = {
             println("[1] Top Headlines")
             println("[2] Trending Wheel of Time Articles")
-            println("[3] Most Common Words in Wheel of Time Articles")
-            println("[4] Game of Thrones Mentions")
-            println("[5]")
-            println("[6]")
+            println("[3] Trending Game of Thrones Articles")
+            println("[4] Most Common Words in Wheel of Time Articles")
+            println("[5] Most Common Words in Game of Throne Articles")
+            println("[6] Search Mentions of a Word in Wheel of Time Articles")
+            println("[7] Search Mentions of a Word in Game of Thrones Articles")
+            println("[8] Number of Wheel of Time Articles")
+            println("[9] Number of Game of Thrones Articles")
+            println("[10] Go Back")
         val userAction = getUserAction()
         userAction match {
             case "1" => {
@@ -329,17 +349,42 @@ object Menu {
             }
             case "2" => {
                 println("Obtaining Data ...")
-                getPopularArticles()
+                getPopularArticles("WoTTB")
             }
             case "3" => {
                 println("Obtaining Data ...")
-                getMostCommonWords()
+                getPopularArticles("GoTTB")
             }
             case "4" => {
                 println("Obtaining Data ...")
-                searchGameofThrones()
+                getMostCommonWords("WoTTB")
             }
-            case "_" => userAction
+            case "5" => {
+                println("Obtaining Data ...")
+                getMostCommonWords("GoTTB")
+            }
+            case "6" => {
+                val word = readLine("Type the word you want to search for here: ")
+                println("Obtaining Data ...")
+                searchWordinTable(word, "WoTTB")
+            }
+            case "7" => {
+                val word = readLine("Type the word you want to search for here: ")
+                println("Obtaining Data ...")
+                searchWordinTable(word, "GoTTB")
+            }
+            case "8" => {
+                println("Obtaining Data ...")
+                getNumberofArticles("WoTTB")
+            }
+            case "9" => {
+                println("Obtaining Data ...")
+                getNumberofArticles("GoTTB")
+            }
+            case "10" => {
+                println("Returning ...")
+            }
+            case _ => println("Invalid action. Try again")
         }
         userAction
     }
@@ -379,7 +424,7 @@ object Menu {
         }
     }
 
-    def getPopularArticles(): Unit = {
+    def getPopularArticles(table: String): Unit = {
         var con: java.sql.Connection = null;
         try {
             var driverName = "org.apache.hive.jdbc.HiveDriver"
@@ -389,7 +434,7 @@ object Menu {
 
             println("\nPopular Articles")
             for (articleCount <- 0 to 9){
-                var results = stmt.executeQuery("SELECT get_json_object(str, '$.articles.title[" + articleCount + "]') FROM WoTTB LIMIT 1")
+                var results = stmt.executeQuery("SELECT get_json_object(str, '$.articles.title[" + articleCount + "]') FROM " + table + " LIMIT 1")
                 while (results.next()){
                     println(s"${articleCount + 1}: ${results.getString(1)}")
                 }
@@ -415,7 +460,7 @@ object Menu {
     }
 
 
-    def getMostCommonWords(): Unit = {
+    def getMostCommonWords(table:String ): Unit = {
         var con: java.sql.Connection = null;
         try {
             var driverName = "org.apache.hive.jdbc.HiveDriver"
@@ -424,7 +469,7 @@ object Menu {
             val stmt = con.createStatement();
 
             println("\nMost Common Words")
-            val query = "SELECT WORD, COUNT(*) AS Total FROM wottB LATERAL VIEW EXPLODE(SPLIT(str, ' ')) lTable AS WORD GROUP BY WORD ORDER BY Total DESC LIMIT 50"
+            val query = "SELECT WORD, COUNT(*) AS Total FROM " + table +" LATERAL VIEW EXPLODE(SPLIT(str, ' ')) lTable AS WORD GROUP BY WORD ORDER BY Total DESC LIMIT 50"
             val result = stmt.executeQuery(query)
             while (result.next()){
                 println(result.getString(1) + " " + result.getInt(2))
@@ -449,7 +494,7 @@ object Menu {
         }
     }
 
-    def searchGameofThrones(): Unit = {
+    def searchWordinTable(word: String, table: String): Unit = {
         //SELECT WORD, COUNT(*) AS Total FROM wottB LATERAL VIEW EXPLODE(SPLIT(str, ' ')) lTable as word WHERE WORD ="Game" GROUP BY WORD ORDER BY Total DESC;
 
         var con: java.sql.Connection = null;
@@ -459,11 +504,44 @@ object Menu {
             con = DriverManager.getConnection(conStr, "", "");
             val stmt = con.createStatement();
 
-            println("\nGame of Thrones Mentions")
-            val query = "SELECT WORD, COUNT(*) AS Total FROM wottB LATERAL VIEW EXPLODE(SPLIT(str, ' ')) lTable as word WHERE WORD ='Game' GROUP BY WORD ORDER BY Total DESC"
+            println("\nNumber of '" + word + "' Mentions:")
+            val query = "SELECT WORD, COUNT(*) AS Total FROM " + table + " LATERAL VIEW EXPLODE(SPLIT(str, ' ')) lTable as word WHERE WORD ='" + word + "' GROUP BY WORD ORDER BY Total DESC"
             val result = stmt.executeQuery(query)
             while (result.next()){
                 println(result.getString(1) + " " + result.getInt(2))
+            }
+            println("\n")
+        } catch {
+            case ex => {
+            ex.printStackTrace();
+            throw new Exception (s"${ex.getMessage}")
+            }
+        } finally{
+            try {
+                if (con != null){
+                    con.close()
+                }
+            } catch {
+                case ex => {
+                ex.printStackTrace();
+                throw new Exception (s"${ex.getMessage}")
+                } 
+            }
+        }
+    }
+
+    def getNumberofArticles(table: String): Unit = {
+        var con: java.sql.Connection = null;
+        try {
+            var driverName = "org.apache.hive.jdbc.HiveDriver"
+            val conStr = "jdbc:hive2://sandbox-hdp.hortonworks.com:10000/default";
+            con = DriverManager.getConnection(conStr, "", "");
+            val stmt = con.createStatement();
+
+            println("\nNumber of Articles")
+            var result = stmt.executeQuery("SELECT get_json_object(str, '$.totalResults') FROM " + table)
+            if (result.next()){
+                println(s"Total: ${result.getInt(1)}")
             }
             println("\n")
         } catch {
