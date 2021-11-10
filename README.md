@@ -1,8 +1,9 @@
-# Wheel of Time News Analyzer
+# Wheel of Time News / Game of Thrones Analyzer
 
 ## Project Description
 
-This is a simple application that imports articles from the News API in order to analyze the data.
+This is a simple application that imports articles about the Wheel of Time and Game of Thrones series from the News API in order to analyze data.
+
 ## Technologies Used
 
 * Hadoop MapReduce
